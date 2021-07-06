@@ -24,3 +24,11 @@
     border-radius: 6px;
     box-shadow: inset 1px 1px 4px 2px white;
 }
+
+.radio{
+    margin: 20px 50px 0;
+}
+
+.radio span{
+    margin-right: 60px;
+}

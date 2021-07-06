@@ -6,11 +6,11 @@ const MovieList = (props) => {
     return (
         <div className="movies">
             {
-                movies.map( (movie) => {
+                movies.length ? movies.map( (movie) => {
                     return (
                         <Movie key={movie.imdbID} {...movie}/>
                     )
-                } )
+                } ) : <h4>Nothing found...</h4>
             }
 
         </div>
